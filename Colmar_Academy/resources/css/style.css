@@ -1,0 +1,565 @@
+/*Body-------------------------------------------------*/
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 10em;
+}
+
+.flex-item {
+    margin: 0;
+}
+
+.columns {
+    display: flex;
+}
+
+.column {
+
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.main-column {
+    flex: 2;
+}
+
+.article {
+    display: flex;
+    color: white;
+    margin: 10px;
+    padding: 0;
+    align-items: center;
+}
+
+.details {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.details img{
+    width: 45%;
+    height: auto;
+    padding: 0;
+}
+
+.c-two {
+    display: flex;
+    flex-direction: column;
+    width: 20em;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+}
+
+.c-two h4 {
+    color: dimgray;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+.c-two p{
+    color: darkgray;
+    font-size: 15px;
+    margin: 0;
+    padding: 0;
+}
+
+.title {
+    font-size: 35px;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-top: 0;
+    padding-bottom: 0;
+    flex: 1;
+}
+
+.button {
+    display: flex;
+    border-radius: 3px;
+    box-shadow: 1px 2px 3px #666666;
+    color: #fff;
+    font-size: 20px;
+    background: #757575;
+    padding: 6px 12px 7px 12px;
+    text-decoration: none;
+    justify-content: center;
+
+    width: 250px;
+}
+
+.button:hover {
+    background: #ff9b69;
+    text-decoration: none;
+}
+
+.button:active {
+    position:relative;
+    top:1px;
+}
+
+.btn-primary {
+    border-radius: 2px;
+    box-shadow: 2px 2px 3px #666666;
+    color: #007AB8;
+    font-size: 15px;
+    background: #dbdbdb;
+    padding: 1px 2px 1px 2px;
+    width: 100px;
+    text-decoration: none;
+}
+
+.btn-primary:hover {
+    background: #ff9b69;
+    text-decoration: none;
+}
+
+.btn-primary:active {
+    position:relative;
+    top:1px;
+}
+
+.btn-default {
+    text-shadow: 1px 3px 8px #bababa;
+}
+
+#third-events,
+#first-events {
+    background: #d9d9d9;
+    padding: 5px 0;
+}
+
+/*Navigation-------------------------------------------*/
+
+.nav-bar a {
+    font-size: 1.5em;
+    text-decoration: none;
+
+}
+
+#top {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    border-bottom: 1px solid black;
+
+    font-weight: bold;
+    height: 64px;
+    background-color: white;
+    width: 99%;
+    top: 0;
+}
+
+.flex-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    height: auto;
+    margin: 0 16px;
+    padding: 0;
+    text-align: center;
+}
+
+.logo {
+    display: flex;
+    height: inherit;
+    padding: 5px 0 0 24px;
+}
+
+.logo img {
+    height: 4em;
+}
+
+#name {
+    display: flex;
+    align-items: center;
+    margin: 0 0 0 0;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+#name2 {
+    display: flex;
+    align-items: center;
+    margin: 0 auto 0 0;
+    padding-left: 0;
+}
+
+.flex-item a {
+    color: black;
+}
+
+#name a {
+    color: dimgray;
+}
+
+#name2 a {
+    color: lightgray;
+}
+
+.right-side a {
+    font-size: 1.1em;
+    color: darkgray;
+    margin: 16px;
+}
+
+
+/*1st Section------------------------------------------*/
+#banner-photo {
+    background: #d9d9d9;
+}
+
+#banner-article {
+    background: #d9d9d9;
+}
+
+.banner-image img {
+    width: 100%;
+    height: 60%;
+}
+
+.banner-image {
+    display: flex;
+    justify-content: center;
+}
+
+.first-article {
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.first-article h5 {
+    width: 150px;
+
+}
+
+.first-article h3 {
+    color: dimgray;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.first-article p {
+    color: darkgray;
+}
+
+
+/*2nd Section------------------------------------------*/
+
+.main-info1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+}
+
+.main-info1 img {
+    width: 100%;
+    height: 100%;
+    padding: 32px 24px;
+    margin: 0;
+}
+
+.man-reading-info {
+    height: 150px;
+}
+
+.man-reading-info h4 {
+    font-size: 20px;
+    margin: 0;
+}
+
+#intro-events {
+    justify-content: space-between;
+}
+
+.information {
+    padding: 0;
+    margin: 10px 0;
+    flex-direction: row;
+}
+
+.main-info img {
+    width: 50%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.info {
+    width: 20em;
+    margin: 0;
+}
+
+/*3rd Section------------------------------------------*/
+#learning {
+    background-color: #d9d9d9;
+
+}
+
+#middle-columns {
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-top: 0;
+}
+
+#middle-columns2 {
+    flex-direction: row;
+}
+
+.class {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    padding: 5px;
+    width: 230px;
+    margin: 32px;
+    background: white;
+}
+
+.class img {
+    height: 110px;
+    width: inherit;
+    margin: 0 0 16px 0;
+}
+
+.de-two h4 {
+    color: dimgray;
+    font-size: 22px;
+    height: auto;
+    margin: 0 0 8px 0;
+}
+
+.de-two p {
+    color: darkgray;
+    margin: 20px 0 5px 0;
+}
+
+.de-two h5 {
+    color: darkgray;
+    margin: 3px 0 1px 0;
+}
+
+.de-two{
+    height: 150px;
+    width: 230px;
+}
+
+/*4th Section------------------------------------------*/
+
+#thesis-vid video {
+    width: 90%;
+}
+
+/*Footer-----------------------------------------------*/
+
+.container {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    font-size: 1.1em;
+    border-top: 1px solid black;
+    font-weight: bold;
+    height: 64px;
+    background-color: white;
+    width: 99%;
+    top: 0;
+}
+
+.copyright {
+    display: flex;
+    align-items: center;
+    margin: 0 auto 0 0;
+    padding-left: 0;
+}
+
+.copyright-right {
+    margin: 16px;
+    text-decoration: none;
+}
+
+figcaption h4 {
+    font-size: 20px;
+}
+
+/*-----------------------------------------------------*/
+
+@media only screen and (max-width: 1800px) and (min-width: 768px) {
+    .details .mobile {
+        display: none;
+    }
+
+    .right-side img {
+        display: none;
+    }
+}
+
+/*-----------------------------------------------------*/
+@media only screen and (max-width: 992px) and (min-width: 767px) {
+
+    #thesis {
+        display: none;
+    }
+
+    .labels {
+        background-color: dimgray;
+        text-align: center;
+        color:lightgray;
+    }
+
+
+}
+
+/*-----------------------------------------------------*/
+@media only screen and (max-width: 766px) and (min-width: 400px) {
+    .flex-container {
+
+        margin: 0;
+    }
+
+    #top {
+        justify-content: space-between;
+        border-bottom: 1px solid black;
+        height: 34px;
+
+        width: 99%;
+        top: 0;
+    }
+
+    .title {
+        font-size: 25px;
+    }
+
+    #name,
+    #name2 {
+        display: none;
+    }
+
+    .logo img {
+        display: none;
+    }
+
+    .right-side img {
+        height: 2em;
+    }
+
+    .right-side {
+        justify-content: space-around;
+        margin: 0;
+    }
+
+    .right-side a {
+        display: none;
+    }
+
+    #top {
+        justify-content: space-between;
+    }
+
+    #banner {
+        flex-direction: column;
+    }
+
+    .details {
+        flex-direction: column;
+    }
+
+    .details img{
+        width: 30%;
+        height: auto;
+        padding: 0;
+    }
+
+    .details .desktop {
+        display: none;
+    }
+
+    .details .mobile {
+        width: auto;
+        height: 150px;
+    }
+
+    #middle-columns {
+        flex-direction: column;
+    }
+
+    #information-main {
+        display: none;
+    }
+
+    .class {
+        margin: 0;
+    }
+
+    .class img {
+        display: none;
+    }
+
+    .de-two {
+        height: 75px;
+        width: inherit;
+        font-size: 15px;
+        padding: 0;
+    }
+
+    .de-two h4 {
+        background: #757575;
+        color: #fff;
+        padding: 10px 0;
+    }
+
+    .de-two p {
+        display: none;
+    }
+
+    .de-two h5 {
+        display: none;
+    }
+
+    #thesis-vid {
+        width: 300px;
+        height:auto;
+        margin: 0;
+    }
+    #thesis {
+        display: none;
+    }
+
+    figcaption h4,
+    p {
+        display: none;
+    }
+
+    .copyright-right {
+        display: none;
+    }
+
+    .copyright {
+        margin: 0;
+    }
+
+    .container {
+        justify-content: center;
+    }
+}
+
+
